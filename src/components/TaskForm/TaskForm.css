@@ -1,0 +1,36 @@
+.task-form {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2rem;
+
+    .input-group {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .title-input {
+            width: 90%;
+            height: 2.5rem;
+            margin: auto;
+            color: #212121;
+            background-color: #fff;
+            border: 1px solid dodgerblue;
+            border-radius: 5px 0 0 5px;
+            padding-left: 10px;
+        }
+
+        .btn-add {
+            width: 10%;
+            height: 2.6rem;
+            background-color: hsl(210, 100%, 46%);
+            border: 1px solid hsl(210, 100%, 46%);
+            border-radius: 0 5px 5px 0;
+            color: white;
+
+            cursor: pointer;
+        }
+    }
+}
